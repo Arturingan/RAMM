@@ -1,0 +1,55 @@
+#ffa31a	(255,163,26)
+#808080	(128,128,128)
+#292929	(41,41,41)
+#1b1b1b	(27,27,27)
+#ffffff	(255,255,255)
+
+Bootstrap Framework
+-sauce = https://getbootstrap.com/
+
+Font awesome
+font-family: 'Oswald', sans-serif;
+-sauce = https://fontawesome.com/
+
+Favicon
+-sauce = https://favicon.io/favicon-generator/
+
+Img Compress
+-sauce = https://compressjpeg.com/
+
+CSS Clip Path Maker
+-sauce = https://bennettfeely.com/clippy/
+
+SEO - Search Engine Optimization - so that when you search in google it will show first.
+1. Title - of the Website 50-60 chars in length.
+2. Description Should be under 156 chars in length - should be Unique and Primary Keyword of your website.
+3. URL - URLS should be under be under 115 chars, but the shorter the url, the better.
+4. Other Meta Tags - META KEYWORDS, META VIEWPORT, META CHARSET, META AUTHOR.
+5. Favicon - The icon of your website it should be Unique and eue catching. to improve user experience. 
+6. Images - Using compressjpeg.com it can optimize or cut the bytes of your image so that it can show smoothly and of course to save amount of the storage.
+7. Attributes - <img alt='my alternative text'> alt tags help search engines associate images with a webpage's content so they can properly index it 
+                within their search results.
+
+                <a href="google.com" Title="Google"> The text of the title attribute is displayed as a tooltip in most browsers, it appears in a 
+                small bubble when the cursor hovers over the link. it also serves a purpose for SEO.
+8. Mobile Friendliness - Mobile Responsiveness.
+9. Minify and Compress - MINIFY ( JS , HTML , CSS ) the small the files size the faster a website will load and the google will rank it better.
+10. Keyword Usage - Keywords must appear in TITLE, META DESCRIPTION and HEADINGS.
+
+-sauce = https://www.youtube.com/watch?v=JSm4aQl4w_U by "JavaScript Mastery"
+
+SEO for WORDPRESS 
+1.  Create a content which can rank on Google - if you are the User what will you search to find a coffee shop
+        example: search in google "best coffee shop in Manila" put this on your wordpress blog or post page
+        "Best Coffee shop in Manila" and put some images and content
+2.  Make your site look good on the Google search results - check the links and fix it. (Dashboard > Settings > Permalink > Post name > save)
+        install "Yoast SEO" so that you can customize the description in google. 
+3.  How you can tell Google about your website's content.
+        -install Google plug in on your websites (Site kit by Google).
+        -setup the Google plugin > Click the Start Setup > sign in > allow > proceed > allow > add site > click on dashboard = Search Console Connected.
+        -tell Google all about your pages you have on your website. XML Site map check on Yoast SEO Plugin. >Site kit plugin > Google search console
+- sauce = https://www.youtube.com/watch?v=tu501rOVMGc
+        https://www.youtube.com/watch?v=Kr6fWPEe7wM
+
+
+

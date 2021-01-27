@@ -1,0 +1,53 @@
+@import "./var";
+
+.sec1 {
+    height: 100vh;
+    background-image: url("../images/sec1-min.jpg");
+    background-color: rgba(0, 0, 0, 0.80);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $colorWhite; 
+    position: relative;
+    .content > h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 56px;
+        .line {
+            height: 2px;
+            background-color: $colorYellow;
+        }
+    }
+    .polygon {
+        background-image: url("../images/idea1-min.jpg");
+        background-color: $colorYellow;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        height: 300px;
+        width: 350px; 
+    }
+    .arrow-down {
+        position: absolute;
+        color: $colorYellow;
+        font-size: 46px;
+        bottom: 30px;
+        left: 50%;
+        transition: .5s;
+        animation: arrowdown 2s linear infinite;
+     
+    }@keyframes arrowdown {
+        0%, 100% {
+            transform: translateY(-20px);
+          }
+          50% {
+            transform: translateY(20px);
+          }
+      }
+}
+
+
+
+
