@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import "./var";
+
+.reviews {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.title-name {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+ 
+    color: $colorGrey;
+}
+
+.prof-pic > img{
+    width: 100px;
+    border-radius: 50%;
+}

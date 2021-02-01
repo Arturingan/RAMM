@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import "./landing";
 @import "./nav";
 @import "./var";
+@import "./reviews";
 
 @mixin dflex {
     display: flex;
@@ -15,9 +17,28 @@
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img{
     width: 100%;
 }
+
+.logo-sec > img{
+    height: 50px;
+    width: 50px;
+}
+.logo-sec > h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+strong {
+    color: $colorBlack;
+   
+}
+
+section {
+    height: 100vh;
+}
+
+

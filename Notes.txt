@@ -8,8 +8,12 @@ Bootstrap Framework
 -sauce = https://getbootstrap.com/
 
 Font awesome
-font-family: 'Oswald', sans-serif;
 -sauce = https://fontawesome.com/
+
+Google Font
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Dancing Script', cursive;
 
 Favicon
 -sauce = https://favicon.io/favicon-generator/
