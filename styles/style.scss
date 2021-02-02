@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import "./landing";
 @import "./nav";
 @import "./var";
 @import "./reviews";
-
-@mixin dflex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -34,11 +35,28 @@ img{
 
 strong {
     color: $colorBlack;
-   
 }
 
-section {
+.calli > h4{
+    font-family: 'Calligraffitti', cursive;
+}
+.abril > h4 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+section{
     height: 100vh;
 }
 
+@media screen and (max-width: 768px){
+   section {
+       height: 125vh;
+   }
+   
+}
 
+@media screen and (max-width: 1050px){
+    section {
+        height: 100vh;
+    }
+ }

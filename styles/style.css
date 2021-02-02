@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 .sec1 {
   height: 100vh;
@@ -235,6 +236,10 @@ nav .burger .burger-line {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -256,7 +261,27 @@ strong {
   color: #1b1b1b;
 }
 
+.calli > h4 {
+  font-family: 'Calligraffitti', cursive;
+}
+
+.abril > h4 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 section {
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    height: 125vh;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  section {
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
