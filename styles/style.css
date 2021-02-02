@@ -278,10 +278,4 @@ section {
     height: 125vh;
   }
 }
-
-@media screen and (max-width: 1050px) {
-  section {
-    height: 100vh;
-  }
-}
 /*# sourceMappingURL=style.css.map */
