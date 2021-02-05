@@ -3,7 +3,7 @@
 
 .reviews {
     font-family: 'Dancing Script', cursive;
-    text-align: center;
+    font-size: 22px;
 }
 
 .title-name {
@@ -12,9 +12,11 @@
     font-size: 12px;
     letter-spacing: 3px;
     color: $colorGrey;
+    margin-top: 10px;
 }
 
 .prof-pic > img{
-    width: 100px;
+    width: 80px;
     border-radius: 50%;
+    height: 70px;
 }
