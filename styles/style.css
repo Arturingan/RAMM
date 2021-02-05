@@ -289,6 +289,9 @@ section {
     width: 60px;
     height: 50px;
   }
+  .google-map {
+    width: 400px;
+  }
 }
 
 .icon {
