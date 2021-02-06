@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Calligraffitti&family=Open+Sans&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 .sec1 {
   height: 100vh;
@@ -33,7 +30,7 @@
   color: #ffa31a;
   font-size: 46px;
   bottom: 30px;
-  left: 50%;
+  left: 49%;
   -webkit-transition: .5s;
   transition: .5s;
   -webkit-animation: arrowdown 2s linear infinite;
@@ -77,40 +74,6 @@
   background-color: #ffffff;
   width: 25px;
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .polygon {
-    background-image: url("../images/idea1-min.jpg");
-    background-color: #ffa31a;
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    height: 150px !important;
-    width: 350px;
-  }
-  .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .content > h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 46px;
-  }
 }
 
 nav {
@@ -214,6 +177,7 @@ nav .burger .burger-line {
 .reviews {
   font-family: 'Dancing Script', cursive;
   font-size: 22px;
+  text-align: center;
 }
 
 .title-name {
@@ -229,6 +193,49 @@ nav .burger .burger-line {
   width: 80px;
   border-radius: 50%;
   height: 70px;
+}
+
+footer {
+  border-top: #808080 1px solid;
+}
+
+.footer-menu ul {
+  list-style: none;
+  height: 100px;
+  width: 400px;
+}
+
+.footer-menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.footer-menu ul li a:hover {
+  color: #ffa31a;
+}
+
+.footer-contact > h4 {
+  color: #808080;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+
+.footer-contact > h5 {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer-contact > h4 > i {
+  margin-right: 20px;
+}
+
+.copy-right {
+  background-color: #1b1b1b;
+  height: 100px;
 }
 
 * {
@@ -275,9 +282,27 @@ section {
   height: 100vh;
 }
 
+.icon {
+  list-style: none;
+  margin-top: 30px;
+  width: 250px;
+}
+
+.icon li a i {
+  list-style: none;
+  font-size: 56px;
+  color: #ffa31a;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.icon li a i:hover {
+  color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
   section {
-    height: 130vh;
+    height: 140vh;
   }
   .card p {
     font-size: 12px;
@@ -299,67 +324,41 @@ section {
   .footer-menu ul li a {
     font-size: 14px;
   }
-}
-
-.icon {
-  list-style: none;
-  margin-top: 30px;
-  width: 250px;
-}
-
-.icon li a i {
-  list-style: none;
-  font-size: 56px;
-  color: #ffa31a;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.icon li a i:hover {
-  color: #ffffff;
-}
-
-footer {
-  border-top: #808080 1px solid;
-}
-
-.footer-menu ul {
-  list-style: none;
-  height: 100px;
-  width: 400px;
-}
-
-.footer-menu ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.footer-menu ul li a:hover {
-  color: #ffa31a;
-}
-
-.footer-contact > h4 {
-  color: #808080;
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-}
-
-.footer-contact > h5 {
-  color: #ffffff;
-  font-size: 16px;
-}
-
-.footer-contact > h4 > i {
-  margin-right: 20px;
-}
-
-.copy-right {
-  background-color: #1b1b1b;
-  height: 100px;
+  .polygon {
+    background-image: url("../images/idea1-min.jpg");
+    background-color: #ffa31a;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    height: 150px !important;
+    width: 350px;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px;
+  }
+  .content > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+  }
+  .content-p {
+    padding: 0 50px;
+  }
 }
 
 @media screen and (max-width: 990px) {

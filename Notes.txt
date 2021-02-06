@@ -24,6 +24,9 @@ Img Compress
 CSS Clip Path Maker
 -sauce = https://bennettfeely.com/clippy/
 
+IMGS PX
+1828 x 1092
+
 SEO - Search Engine Optimization - so that when you search in google it will show first.
 1. Title - of the Website 50-60 chars in length.
 2. Description Should be under 156 chars in length - should be Unique and Primary Keyword of your website.

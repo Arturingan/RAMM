@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Calligraffitti&family=Open+Sans&family=Oswald&display=swap');
 @import "./landing";
 @import "./nav";
 @import "./var";
 @import "./reviews";
+@import "./footer";
+
+
 
 * {
     padding: 0;
@@ -49,33 +49,8 @@ section{
  
 }
 
-@media screen and (max-width: 768px){
-   section {
-       height: 130vh;
-   }
-   .card p {
-       font-size: 12px;
-   }
- 
-   .title-name {
-    font-size: 8px;
-    }
-    .prof-pic > img{
-        width: 60px;
-        height: 50px;
-    }
-    .google-map {
-        width: 300px;
-        margin-top: 20px;
-    }
-    .copy-right {
-        font-size: 12px;
-    }
-    .footer-menu ul li a{
-        font-size: 14px;
-    }
-    
-}
+
+
 .icon {
     list-style: none;
     margin-top: 30px;
@@ -91,46 +66,60 @@ section{
     }   
 }
 
-footer {
-    border-top: $colorGrey 1px solid;
-  
-}
-
-.footer-menu ul {
-    list-style: none;
-    height: 100px;
-    width: 400px;
-}
-.footer-menu ul li a{
-    color: $colorWhite;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    transition: .5s;
-    &:hover {
-        color: $colorYellow;
+@media screen and (max-width: 768px){
+    section {
+        height: 140vh;
     }
-}
+    .card p {
+        font-size: 12px;
+    }
+    .title-name {
+     font-size: 8px;
+     }
+     .prof-pic > img{
+         width: 60px;
+         height: 50px;
+     }
+     .google-map {
+         width: 300px;
+         margin-top: 20px;
+     }
+     .copy-right {
+         font-size: 12px;
+     }
+     .footer-menu ul li a{
+         font-size: 14px;
+     }
+     .polygon {
+        background-image: url("../images/idea1-min.jpg");
+        background-color: $colorYellow;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        height: 150px !important;
+        width: 350px; 
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .content > h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 46px;
+    }
+    .content-p {
+        padding: 0 50px;
+    }
+  
+   
+ }
 
-.footer-contact > h4{
-    color: $colorGrey;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-}
-.footer-contact > h5 {
-    color: $colorWhite;
-    font-size: 16px;
-}
-.footer-contact > h4 > i {
-    margin-right: 20px;
-
-}
-
-.copy-right {
-    background-color: $colorBlack;
-    height: 100px;
-}
-
+ 
 @media screen and (max-width: 990px){
     .content .logo-sec  h4{
         font-size: 16px;
@@ -145,3 +134,9 @@ footer {
         font-size: 18px;
     }
 }
+
+
+
+
+
+
