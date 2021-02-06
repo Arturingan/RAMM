@@ -291,6 +291,13 @@ section {
   }
   .google-map {
     width: 300px;
+    margin-top: 20px;
+  }
+  .copy-right {
+    font-size: 12px;
+  }
+  .footer-menu ul li a {
+    font-size: 14px;
   }
 }
 
