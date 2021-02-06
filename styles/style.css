@@ -375,4 +375,18 @@ section {
     font-size: 18px;
   }
 }
+
+body::-webkit-scrollbar {
+  width: .5em;
+  background-color: #292929;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffa31a;
+}
 /*# sourceMappingURL=style.css.map */
