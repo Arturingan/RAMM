@@ -58,5 +58,7 @@ SEO for WORDPRESS
 - sauce = https://www.youtube.com/watch?v=tu501rOVMGc
         https://www.youtube.com/watch?v=Kr6fWPEe7wM
 
+inspiration
+-https://redlight.dev/about
 
 
