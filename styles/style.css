@@ -344,6 +344,131 @@ strong {
   color: #ffa31a;
 }
 
+.from-product {
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: #292929;
+  width: 75%;
+}
+
+.our-process {
+  font-size: 26px;
+  color: #ffa31a;
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+}
+
+.font-icon > h1 {
+  font-size: 96px;
+}
+
+.items {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.items::-webkit-scrollbar {
+  width: 0;
+}
+
+.items.active {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.item {
+  display: inline-block;
+  height: 100%;
+  margin: 10px;
+}
+
+.item img {
+  height: 100%;
+  width: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .item {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+
+.about-card {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 150px 30px 30px 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-ws-yellow {
+  background: #ffc107;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffc107), color-stop(50%, whitesmoke));
+  background: linear-gradient(0deg, #ffc107 50%, whitesmoke 50%);
+}
+
+.the-guys > h1 {
+  padding: 200px 0 100px 0;
+}
+
+.we-container {
+  height: 100vh;
+}
+
+.me-card {
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+
+.me-pic {
+  height: 450px;
+  width: 400px;
+  background-color: #292929;
+  position: absolute;
+  right: 0;
+}
+
+.me-content {
+  height: 250px;
+  width: 300px;
+  background-color: #5f27cd;
+  padding: 20px;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
+.me-content1 {
+  height: 250px;
+  width: 300px;
+  background-color: #f19066;
+  padding: 20px;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
 @media screen and (max-width: 768px) {
   section {
     height: auto;

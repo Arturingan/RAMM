@@ -10,7 +10,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>About us</title>
-    <link rel="shortcut icon" type="image/ico" href="./images/favicon.ico">
+    <link rel="shortcut icon" type="image/ico" href="./images/favicon.ico"> 
+
+    <!-- drag slider JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
   </head>
   <body>
     
@@ -103,14 +107,120 @@
       </div>
   </div>
   
-  <div class="container-fluid bg-ws">
+  <div class="container-fluid bg-ws py-5">
     <div class="container">
       <h1 class="text-med">We think and speak javascript, php 
         or any language you really need. </h1>
     </div>
-    <h1><i class="fab fa-js-square"></i></h1>
+    <div class="font-icon container-fluid d-flex justify-content-around text-warning p-5">
+      <h1><i class="fab fa-js-square"></i></h1>
+      <h1><i class="fab fa-wordpress"></i></h1>
+      <h1><i class="fab fa-shopify"></i></h1>
+      <h1><i class="fab fa-bootstrap"></i></h1>
+    </div>
+
+ <!-- slider-container -->
+  <div class="items">
+    <div class="item item1"><img src="images/gal1.jpg" alt=""></div>
+    <div class="item item2"><img src="images/gal2.jpg" alt=""></div>
+    <div class="item item3"><img src="images/gal3.jpg" alt=""></div>
+    <div class="item item4"><img src="images/gal4.jpg" alt=""></div>
+    <div class="item item5"><img src="images/gal5.jpg" alt=""></div>
+    <div class="item item6"><img src="images/gal6.jpg" alt=""></div>
+  </div>
+
   </div>
 </section>
+
+<div class="container-fluid bg-ws">
+  <div class="container p-5">
+    <h1 class="from-product">From product specification 
+      and early design concepts to 
+      product launch and 
+      maintenance. </h1>
+  </div>
+  <div class="container d-flex justify-content-end p-5">
+    <h3 class="our-process">Our process is fully transparent as we bring
+       clients close to us with daily interactions and updates.</h3>
+  </div>
+  </div>
+
+  <div class="container-fluid bg-ws-yellow">
+    <div class="about-container d-flex justify-content-evenly">
+      <div class="about-card">
+        <i class="fas fa-th fa-3x text-warning py-5"></i>
+        <h3>Business Analysis</h3>
+        <p class="text-secondary">We help our clients envision the products they need with good 
+          advising and prioritization.</p>
+      </div>
+      <div class="about-card">
+        <i class="fas fa-cube fa-3x text-warning py-5"></i>
+        <h3>UI/UX Development</h3>
+        <p class="text-secondary">Don’t rely on imagination only. We can picture your product 
+          before it comes to life.</p>
+      </div>
+      <div class="about-card">
+        <i class="fas fa-cubes fa-3x text-warning py-5"></i>
+        <h3>Software Engineering</h3>
+        <p class="text-secondary">Our team plans, designs and creates tailored made software 
+          systems using modern technologies..</p>
+      </div>
+      <div class="about-card">
+        <i class="fas fa-vector-square fa-3x text-warning py-5"></i>
+        <h3>Web & Mobile Development</h3>
+        <p class="text-secondary">Is your product suited for mass distribution? We’re used to that..</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="bg-warning">
+    <div class="container  the-guys">
+      <h1 class="text-center">THE GUYS BEHIND THE MAGIC</h1>
+      <div class="we-container d-flex justify-content-evenly p-5">
+
+        <div class="me-card">
+          <div class="me-pic">
+
+          </div>
+          <div class="me-content">
+            <h2>Arthur Turingan</h2>
+            <h5>Developer</h5>
+            <div class="row pt-5">
+            <div class="col-9">
+              <p>Wanted to be a monk that brews beer but, well, here I am.</p>
+            </div>
+            <div class="col-3">
+              <i class="fab fa-github fa-2x pt-5"></i>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+
+        <div class="me-card">
+          <div class="me-pic">
+
+          </div>
+          <div class="me-content1">
+            <h2>Frusneer</h2>
+            <h5>Developer</h5>
+            <div class="row pt-5">
+            <div class="col-9">
+              <p>Chief godfather with 20% caffeine rushing through his veins.</p>
+            </div>
+            <div class="col-3">
+              <i class="fab fa-github fa-2x pt-5"></i>
+            </div>
+          </div>
+           
+      </div>
+
+
+      
+    </div>
+  </section>
+
+
 
 <section class="bg-dark m-auto h-100">
   <div class="container d-flex flex-column justify-content-center align-items-center m-auto py-5">
@@ -164,6 +274,8 @@
 </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- Customize JS -->
     <script src="script.js"></script>  
+   
   </body>
 </html>

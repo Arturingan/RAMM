@@ -24,6 +24,12 @@ Img Compress
 CSS Clip Path Maker
 -sauce = https://bennettfeely.com/clippy/
 
+Gradient source
+https://cssgradient.io/
+
+UI Color
+https://flatuicolors.com/
+
 IMGS PX
 1828 x 1092
 
