@@ -46,54 +46,58 @@
   </div>
 </header>
 
-<section class="bg-warning">
-  <div class="container content d-flex justify-content-center align-items-center w-25 text-uppercase" 
-  style="letter-spacing: 3px; height: 700px;">
-    <h1>The true secret for our 
+<div class="container-fluid bg-warning">
+  <div class="container content d-flex justify-content-center align-items-center " >
+  <div class="true-secret">
+    <p>The true secret for our 
       success are the people 
       behind the screen. And 
-      with it, our culture. </h1>
-    </div> 
+      with it, our culture. </p>
+    </div>    
+  </div> 
   <div class="container-fluid about-big">
     <h1>About...</h1> 
     <img src="images/team1.jpg" alt="">
   </div>
-</section>
+</div>
 
-<section class="bg-warning border-top-line py-5">
+<section class="bg-warning py-5">
   <div class="container">
     <div class="row">
-      <div class="col-4">
-        <h1>We are a software development studio focusing on seamless communication 
-          and process transparency.</h1>
-      </div>
-      <div class="col-8">
-        <div class="row">
-          <div class="col-1">
-            <h5 class="font-xs float-end mt-2">WHO</h5>
-          </div>
-          <div class="col-11">
-            <h3>We are a group of people that think digital and take daily showers of light
-               on sunny Portugal. We started in Coimbra but we have clients all around the world.</h3>
-          </div>
+        <div class="we-are col-lg-4 col-md-12">
+          <h1>We are a software development studio focusing on seamless communication 
+            and process transparency.</h1>
+        </div>
+      <div class="col-lg-8 col-md-12">
           <div class="row">
-            <div class="col-1 float-end">
-              <h5 class="font-xs float-end mt-2">MISSION</h5>
+            <div class="col-lg-1 col-xs-12">
+              <h5 class="font-xs mt-2">WHO</h5>
             </div>
-            <div class="col-11">
+
+            <div class="col-lg-11 col-xs-12">
+              <h3>We are a group of people that think digital and take daily showers of light
+                on sunny Portugal. We started in Coimbra but we have clients all around the world.</h3>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-lg-1 col-xs-12">
+              <h5 class="font-xs  mt-2">MISSION</h5>
+            </div>
+            <div class="col-lg-11 col-xs-12">
               <h3>Help companies create successful software products in a collaborative relationship.</h3>
               <img src="images/white-board.jpg" alt="">
             </div>
-        </div>
-        <div class="row">
-          <div class="col-1 float-end">
-            <h5 class="font-xs float-end mt-2">HOW</h5>
           </div>
-          <div class="col-11">
-            <h3>Our process relies heavily on a constant stream of communication between our team and our clients,
-               keeping clear expectations at all times.</h3>
+          <div class="row">
+            <div class="col-lg-1 col-xs-12">
+              <h5 class="font-xs mt-2">HOW</h5>
+            </div>
+            <div class="col-lg-11 col-xs-12">
+              <h3>Our process relies heavily on a constant stream of communication between our team and our clients,
+                keeping clear expectations at all times.</h3>
+            </div>
           </div>
-      </div>
+          
       </div>
     </div>
   </div>
@@ -118,19 +122,18 @@
       <h1><i class="fab fa-shopify"></i></h1>
       <h1><i class="fab fa-bootstrap"></i></h1>
     </div>
-
- <!-- slider-container -->
-  <div class="items">
-    <div class="item item1"><img src="images/gal1.jpg" alt=""></div>
-    <div class="item item2"><img src="images/gal2.jpg" alt=""></div>
-    <div class="item item3"><img src="images/gal3.jpg" alt=""></div>
-    <div class="item item4"><img src="images/gal4.jpg" alt=""></div>
-    <div class="item item5"><img src="images/gal5.jpg" alt=""></div>
-    <div class="item item6"><img src="images/gal6.jpg" alt=""></div>
-  </div>
-
   </div>
 </section>
+
+ <!-- slider-container -->
+ <div class="items bg-ws">
+  <div class="item item1"><img src="images/gal4.jpg" alt=""></div>
+  <div class="item item2"><img src="images/gal2.jpg" alt=""></div>
+  <div class="item item3"><img src="images/gal3.jpg" alt=""></div>
+  <div class="item item4"><img src="images/gal1.jpg" alt=""></div>
+  <div class="item item5"><img src="images/gal5.jpg" alt=""></div>
+  <div class="item item6"><img src="images/gal6.jpg" alt=""></div>
+</div>
 
 <div class="container-fluid bg-ws">
   <div class="container p-5">
@@ -173,16 +176,18 @@
     </div>
   </div>
 
-  <section class="bg-warning">
-    <div class="container  the-guys">
+  <section class="bg-warning employees pb-5">
+    <div class="container the-guys">
       <h1 class="text-center">THE GUYS BEHIND THE MAGIC</h1>
-      <div class="we-container d-flex justify-content-evenly p-5">
-
+    </div>  
+    
+      <div class="container we-container d-flex justify-content-evenly">
+        
         <div class="me-card">
           <div class="me-pic">
 
           </div>
-          <div class="me-content">
+          <div class="me-content bg-blue">
             <h2>Arthur Turingan</h2>
             <h5>Developer</h5>
             <div class="row pt-5">
@@ -192,16 +197,16 @@
             <div class="col-3">
               <i class="fab fa-github fa-2x pt-5"></i>
             </div>
+          </div>     
           </div>
-            
-          </div>
+
         </div>
 
-        <div class="me-card">
+        <div class="me-card ">
           <div class="me-pic">
 
           </div>
-          <div class="me-content1">
+          <div class="me-content bg-red">
             <h2>Frusneer</h2>
             <h5>Developer</h5>
             <div class="row pt-5">
@@ -211,12 +216,48 @@
             <div class="col-3">
               <i class="fab fa-github fa-2x pt-5"></i>
             </div>
+          </div>     
+      </div> 
+        </div>
+      </div>  
+
+    <div class="container we-container d-flex justify-content-evenly">
+      <div class="me-card">
+        <div class="me-pic">
+
+        </div>
+        <div class="me-content bg-beige">
+          <h2>Monti</h2>
+          <h5>Developer</h5>
+          <div class="row pt-5">
+          <div class="col-9">
+            <p>"Have you tried turning it off and on again?"</p>
           </div>
-           
+          <div class="col-3">
+            <i class="fab fa-github fa-2x pt-5"></i>
+          </div>
+        </div>     
+        </div>
+
       </div>
 
+      <div class="me-card ">
+        <div class="me-pic">
 
-      
+        </div>
+        <div class="me-content bg-purple">
+          <h2>Mikey</h2>
+          <h5>Designer</h5>
+          <div class="row pt-5">
+          <div class="col-9">
+            <p>Made of 70% Beer. Think about it.</p>
+          </div>
+          <div class="col-3">
+            <i class="fab fa-github fa-2x pt-5"></i>
+          </div>
+        </div>     
+    </div> 
+      </div>
     </div>
   </section>
 
